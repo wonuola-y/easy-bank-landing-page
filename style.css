@@ -87,11 +87,11 @@ color: #fff;
     color: gray;
     padding-top: 1em;
 }
-.first-container{
+/* .first-container{
   margin: 0 5em;
   margin-bottom: 5em;
  
-}
+} */
 div > h1, p{
     text-align: center;
 }
@@ -165,6 +165,9 @@ i{
     margin: 1.5em;
     padding: .3em;
 }
+.article > img{
+    width: 100%;
+}
 h3{    
     margin: 0 0.6em;
     padding: .5em 0;
@@ -186,14 +189,16 @@ justify-content: center;
     display: flex;
     flex-direction: row;
     width: 80%;
-    /* border: 2px solid red; */
+    padding-left:10em;
     justify-content: center;
     align-items: center;
-
 }
 .icons > li{
     padding: .5em;
     text-align: center;
+}
+.mobile{
+    width: 100%;
 }
 .copyright > button{
     width: 25%;
@@ -252,6 +257,9 @@ li{
         background-size: 150%;
         background-position-x: 5%;
         background-position-y: 50%;
+    }
+    .copyright{
+        display: none;
     }
     .first-div > p,
     h1{
