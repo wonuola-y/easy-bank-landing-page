@@ -181,17 +181,29 @@ text-align: center;
 flex-direction: column;
 justify-content: center;
 }
-footer > .icons{
+.footer > .icons{
     list-style: none;
     display: flex;
-    width: 90%;
+    flex-direction: row;
+    width: 80%;
+    /* border: 2px solid red; */
     justify-content: center;
- margin: 0 2em;
- margin-top: 1em;
+    align-items: center;
+
 }
-.footer-mobile{
+.icons > li{
+    padding: .5em;
+    text-align: center;
+}
+.copyright > button{
+    width: 25%;
+}
+.footer-mobile > li{
+    margin: 1em 0;
+}
+/* .footer-mobile{
     margin: 0;
-}
+} */
 footer > .footer-mobile > li{
     margin: 1.2em;
 }
@@ -200,6 +212,9 @@ footer > .icons > li{
 }
 li{
     list-style: none;
+}
+.button-footer{
+    display: none;
 }
 
 @media screen and (min-width: 900px) {
