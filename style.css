@@ -336,8 +336,7 @@ padding: 0 1em;
         justify-content: space-between;
     }
     .footer{
-        border: 2px solid red;
-        display: grid;
+      
         grid-template-columns:auto auto;
         width: 50%;
         color: hsl(220, 16%, 96%);
