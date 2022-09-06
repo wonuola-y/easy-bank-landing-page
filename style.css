@@ -116,8 +116,11 @@ h2{
     display: flex;
    flex-direction: column;
 }
+.first-div > p{
+    text-align: center;
+}
 button{
-    /* width: 100px; */
+    margin: 0 6em;
     justify-content: center;
 }
 p{
