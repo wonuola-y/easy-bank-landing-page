@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Frontend Mentor - Easybank landing page
 
 ![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)
@@ -90,3 +91,6 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+=======
+# easy-bank-landing-page
+>>>>>>> 1452ee5b44cdae7a83622a8f255d8d647a5d8979
