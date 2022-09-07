@@ -176,7 +176,7 @@ p {
 }
 .article {
   background-color: white;
-  border-radius: 15px;
+  border-radius: 5px;
  display: flex;
  flex-direction: column;
  margin-bottom: 3em;
@@ -200,8 +200,8 @@ p {
 .article > img {
    
   width: 100%;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
+  border-top-left-radius: 5px;
+  border-top-right-radius:5px;
 }
 h3 {
   padding: 0.5em 0;
@@ -394,13 +394,18 @@ li {
     width: 100%;
   }
   .second-container > div,
-  h2 {
+  .featured > h2 {
     text-align: left;
   }
 
   .features {
-    width: 200px;
+    width: 24%;
   }
+  .features > h3, .features > p{
+    text-align: left;
+    margin-top: 1em;
+  }
+
   .featured {
     width: 86%;
     margin: 3em;
@@ -411,9 +416,11 @@ li {
   }
   .article-list {
     display: flex;
+    width: 100%;
+    justify-content: space-between;
   }
   .article-list > .article {
-    width: 400px;
+    width: 23%;
     display: flex;
     flex-direction: column;
   }
@@ -425,8 +432,8 @@ li {
   }
   .article > img {
     width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
   }
   .article > i {
     padding-top: 1em;
@@ -457,8 +464,8 @@ li {
     display: grid;
     grid-template-columns: auto auto;
     grid-column-gap: 20px;
-    grid-row-gap: 15px;
   }
+
   .main-container {
     margin: 0em 5em;
   }
