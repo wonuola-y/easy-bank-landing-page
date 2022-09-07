@@ -160,10 +160,7 @@ p {
   text-align: center;
 }
 
-i {
-  margin-top: 0.4em;
-  font-style: normal;
-}
+
 .articles > div > i,
 p {
   padding: 0;
@@ -193,19 +190,30 @@ p {
 
 }
 .article > img {
+   
   width: 100%;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
 h3 {
-  margin: 0;
   padding: 0.5em 0;
+  margin: 0;
+  margin-left: .5em;
 }
 .featured >h2{
 text-align: center;
 }
+.article > p{
+    margin: 0;
+    margin-left: 1em;
+    margin-bottom: 4em;
+}
 i{
-    font-size: 14px;
+    margin-left: 1em;
+    font-size: 12px;
+    color: rgb(98, 96, 96);
+    margin-top: 2.5em;
+    font-style: normal;
 }
 .features > p {
   padding: 0.2em;
