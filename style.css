@@ -231,7 +231,7 @@ footer {
   line-height: 2em;
 }
 .icons {
-    margin-top:2em;
+    padding-top:2em;
   display: flex;
   width: 100vw;
   justify-content: center;
