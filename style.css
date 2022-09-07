@@ -179,6 +179,7 @@ p {
   border-radius: 15px;
  display: flex;
  flex-direction: column;
+ margin-bottom: 3em;
 }
 .featured{
     width: 80%;
