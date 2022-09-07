@@ -31,6 +31,17 @@ body {
   background-color: white;
   padding: 1em;
 }
+.nav-list, .desktop-nav > ul{
+    color: gray;
+    cursor: pointer;
+}
+ul > li > a{
+    color: gray;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
 #overlay {
   /*overlay effect*/
   position: fixed;
@@ -78,6 +89,7 @@ body {
   display: block;
 }
 button {
+    color: white !important;
   background-image: linear-gradient(
     to right,
     hsl(136, 65%, 51%),
@@ -90,7 +102,9 @@ button {
   width: 35%;
   justify-content: center;
 }
-
+button > a{
+    color: #fff;
+}
 div > h1,
 p {
   text-align: center;
@@ -237,6 +251,9 @@ li {
   }
   .desktop-nav > img {
     margin-left: 4em;
+  }
+  button{
+    color: #fff !important;
   }
   .mockup {
     width: 100%;
