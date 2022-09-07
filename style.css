@@ -100,6 +100,7 @@ button {
   border: none;
   color: #fff;
   width: 35%;
+  margin: 2em 0;
   justify-content: center;
 }
 button > a{
@@ -135,6 +136,7 @@ h2 {
 }
 .first-div > p {
   text-align: center;
+ 
 }
 
 p {
