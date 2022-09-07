@@ -346,7 +346,9 @@ li {
     display: flex;
     justify-content: space-between;
   }
-
+  .sec-intro > p{
+text-align: left;
+  }
   .desktop-nav > button {
     width: 15%;
   }
