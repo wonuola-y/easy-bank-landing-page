@@ -2,6 +2,10 @@
     box-sizing: border-box;
     
 }
+main{
+    height: 100vh;
+    width: 100vw;
+}
 .desktop-nav, .nav-list, .bg-desktop, .footer-desktop{
 display: none;
 }
@@ -80,13 +84,10 @@ padding: 1em;
 border-radius: 25px;
 border: none;
 color: #fff;
-    width: 65%;
+    width: 35%;
     justify-content:center ;
 }
-.copyright{
-    color: gray;
-    padding-top: 1em;
-}
+
 /* .first-container{
   margin: 0 5em;
   margin-bottom: 5em;
@@ -119,10 +120,7 @@ h2{
 .first-div > p{
     text-align: center;
 }
-button{
-    margin: 0 6em;
-    justify-content: center;
-}
+
 p{
     color: gray;
     padding: .5em;
@@ -148,11 +146,7 @@ p{
 text-align: center;
 
 }
-.articles> div > img{
-width: 100%;
-border-top-right-radius:25px ;
-border-top-left-radius:25px ;
-}
+
 i{
     margin-top: 0.4em;
     font-style: normal;
@@ -170,6 +164,8 @@ i{
 }
 .article > img{
     width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 h3{    
     margin: 0 0.6em;
@@ -180,49 +176,47 @@ h3{
 color: gray;
 }
 footer{
-    color: white;
-background-color: hsl(233, 26%, 24%);
-display: flex;
-text-align: center;
-flex-direction: column;
-justify-content: center;
+    width: 100%;
+    background-color: hsl(233, 26%, 24%);
 }
-.footer > .icons{
-    list-style: none;
+.footer-mobile, .icons{
+    text-align: center;
+    padding: 0;
+}
+.icons{
     display: flex;
-    flex-direction: row;
-    width: 80%;
-    padding-left:10em;
+    width: 100vw;
     justify-content: center;
-    align-items: center;
+   
 }
 .icons > li{
-    padding: .5em;
-    text-align: center;
-}
-.mobile{
-    width: 100%;
-}
-.copyright > button{
-    width: 25%;
-}
-.footer-mobile > li{
-    margin: 1em 0;
-}
-/* .footer-mobile{
-    margin: 0;
-} */
-footer > .footer-mobile > li{
-    margin: 1.2em;
-}
-footer > .icons > li{
-    margin: 1em;
-}
-li{
-    list-style: none;
+    margin: .5em;
 }
 .button-footer{
     display: none;
+}
+.mobile{
+    width: 100%;
+
+}
+.copyright{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright > i{
+    margin: 1.5em 0;
+    color: gray;
+}
+
+li{
+    list-style: none;
+}
+.attribution{
+    background-color: hsl(233, 26%, 24%);
 }
 
 @media screen and (min-width: 900px) {
