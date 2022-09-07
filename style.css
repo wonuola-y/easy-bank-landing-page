@@ -32,7 +32,7 @@ body {
   padding: 1em;
 }
 .nav-list, .desktop-nav > ul{
-    color: gray;
+    color: lightgray;
     cursor: pointer;
 }
 ul > li > a{
