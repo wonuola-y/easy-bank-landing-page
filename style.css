@@ -333,9 +333,8 @@ li {
   }
 
   .first-div > p {
-    max-width: 65%;
     text-align: left;
-    padding: 2em 0em;
+    padding: 1em 0em;
   }
   .first-div > h1 {
     text-align: left;
