@@ -450,7 +450,7 @@ text-align: left;
   }
   footer {
     grid-template-columns: auto auto;
-
+padding: 20px;
     color: hsl(220, 16%, 96%);
     grid-gap: 20px;
   }
@@ -488,5 +488,8 @@ text-align: left;
   }
   .button-footer > button {
     width: 30%;
+  }
+  .topnav-btn{
+    margin: 0;
   }
 }
